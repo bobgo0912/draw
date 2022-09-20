@@ -1,1 +1,76 @@
-<mxfile host="app.diagrams.net" modified="2022-09-16T04:00:53.461Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" version="20.3.0" etag="GjVgs5tcR6bcZw15euRI" type="github"><diagram id="wwxnglG0rDvlRf8XzyRv">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-20T07:51:02.523Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="6W3unDVufVjyHC7mfFkJ" version="20.3.0" type="github">
+  <diagram id="wwxnglG0rDvlRf8XzyRv" name="第 1 页">
+    <mxGraphModel dx="1319" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7m13_BltecIXmXGjK-xz-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.908;entryY=0.788;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7m13_BltecIXmXGjK-xz-9" target="7m13_BltecIXmXGjK-xz-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="390" />
+              <mxPoint x="420" y="390" />
+              <mxPoint x="420" y="163" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7m13_BltecIXmXGjK-xz-31" value="最后广播到nats" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7m13_BltecIXmXGjK-xz-26">
+          <mxGeometry x="0.1261" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7m13_BltecIXmXGjK-xz-30" value="通过转码计算出未结算金额&lt;br&gt;入库只保存近三个月" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7m13_BltecIXmXGjK-xz-9" target="7m13_BltecIXmXGjK-xz-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7m13_BltecIXmXGjK-xz-9" value="settle" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7m13_BltecIXmXGjK-xz-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7m13_BltecIXmXGjK-xz-12" target="7m13_BltecIXmXGjK-xz-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7m13_BltecIXmXGjK-xz-25" value="1.推送转码&lt;br&gt;2.推送配置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7m13_BltecIXmXGjK-xz-24">
+          <mxGeometry x="-0.1571" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7m13_BltecIXmXGjK-xz-12" value="nats" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7m13_BltecIXmXGjK-xz-20" value="转码(流水)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.16;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7m13_BltecIXmXGjK-xz-13" target="7m13_BltecIXmXGjK-xz-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="269" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7m13_BltecIXmXGjK-xz-13" value="场面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7m13_BltecIXmXGjK-xz-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7m13_BltecIXmXGjK-xz-14" target="7m13_BltecIXmXGjK-xz-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7m13_BltecIXmXGjK-xz-17" value="配置&lt;br&gt;费率&lt;br&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7m13_BltecIXmXGjK-xz-16">
+          <mxGeometry x="-0.0741" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7m13_BltecIXmXGjK-xz-14" value="cms" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7m13_BltecIXmXGjK-xz-18" value="danfoo" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7m13_BltecIXmXGjK-xz-19" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-stretch: normal; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; text-align: start;&quot; class=&quot;p1&quot;&gt;mario&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7m13_BltecIXmXGjK-xz-28" value="mysql" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="30" y="290" width="60" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
