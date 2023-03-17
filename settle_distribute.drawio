@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-17T04:32:04.269Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="npQf8-TOEYQh7WIugRfr" version="21.0.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-03-17T05:54:52.928Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="rueINU-bVJfHQf4f47nz" version="21.0.6" type="github" pages="2">
   <diagram name="第 1 页" id="NbOTUN8-V1Asu5dgZgVQ">
     <mxGraphModel dx="1234" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -78,13 +78,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qMjMx3C86a82iwGKrl_q" name="第 2 页">
-    <mxGraphModel dx="2061" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="AWzn9kfPtikDPwNvXIya-7" value="begin&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="AWzn9kfPtikDPwNvXIya-16" target="AWzn9kfPtikDPwNvXIya-8">
+        <mxCell id="AWzn9kfPtikDPwNvXIya-7" value="开始&lt;br&gt;begin&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="AWzn9kfPtikDPwNvXIya-16" target="AWzn9kfPtikDPwNvXIya-47">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-10" y="340" as="targetPoint" />
+            <mxPoint x="-110" y="350" as="targetPoint" />
             <mxPoint x="50" y="180" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="50" y="186" />
@@ -95,24 +95,21 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AWzn9kfPtikDPwNvXIya-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AWzn9kfPtikDPwNvXIya-16" target="AWzn9kfPtikDPwNvXIya-9">
+        <mxCell id="AWzn9kfPtikDPwNvXIya-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AWzn9kfPtikDPwNvXIya-16" target="AWzn9kfPtikDPwNvXIya-48">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="50" y="180" as="sourcePoint" />
+            <mxPoint x="50" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AWzn9kfPtikDPwNvXIya-11" value="开球" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AWzn9kfPtikDPwNvXIya-10">
+        <mxCell id="AWzn9kfPtikDPwNvXIya-11" value="开球&lt;br&gt;prize_on_going" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AWzn9kfPtikDPwNvXIya-10">
           <mxGeometry x="0.0444" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-1" y="17" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AWzn9kfPtikDPwNvXIya-8" value="获取当期投注订单" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="-170" y="350" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="AWzn9kfPtikDPwNvXIya-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AWzn9kfPtikDPwNvXIya-9" target="AWzn9kfPtikDPwNvXIya-23">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="AWzn9kfPtikDPwNvXIya-9" value="标记卡片的对应的开奖号码" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="350" width="120" height="60" as="geometry" />
+        <mxCell id="AWzn9kfPtikDPwNvXIya-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="AWzn9kfPtikDPwNvXIya-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="410" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="AWzn9kfPtikDPwNvXIya-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.088;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="AWzn9kfPtikDPwNvXIya-16">
           <mxGeometry relative="1" as="geometry">
@@ -126,29 +123,44 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AWzn9kfPtikDPwNvXIya-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AWzn9kfPtikDPwNvXIya-15" target="AWzn9kfPtikDPwNvXIya-39">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="50" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="AWzn9kfPtikDPwNvXIya-15" value="结算服务启动" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="10" y="10" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="AWzn9kfPtikDPwNvXIya-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AWzn9kfPtikDPwNvXIya-16" target="AWzn9kfPtikDPwNvXIya-18">
+        <mxCell id="AWzn9kfPtikDPwNvXIya-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AWzn9kfPtikDPwNvXIya-16" target="AWzn9kfPtikDPwNvXIya-49">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="50" y="280" />
-              <mxPoint x="200" y="280" />
+              <mxPoint x="190" y="280" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AWzn9kfPtikDPwNvXIya-20" value="finshi" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AWzn9kfPtikDPwNvXIya-19">
-          <mxGeometry x="0.1" y="-3" relative="1" as="geometry">
+        <mxCell id="AWzn9kfPtikDPwNvXIya-54" value="结束&lt;br&gt;finshi" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AWzn9kfPtikDPwNvXIya-53">
+          <mxGeometry x="0.0357" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AWzn9kfPtikDPwNvXIya-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AWzn9kfPtikDPwNvXIya-16" target="AWzn9kfPtikDPwNvXIya-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="50" y="280" />
+              <mxPoint x="320" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AWzn9kfPtikDPwNvXIya-67" value="取消&lt;br&gt;cancel" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AWzn9kfPtikDPwNvXIya-65">
+          <mxGeometry x="0.3805" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AWzn9kfPtikDPwNvXIya-16" value="监听奖源&lt;br&gt;WS.game.event&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;获取奖源事件" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-10" y="130" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="AWzn9kfPtikDPwNvXIya-18" value="生成" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AWzn9kfPtikDPwNvXIya-26" value="44个球" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AWzn9kfPtikDPwNvXIya-23" target="AWzn9kfPtikDPwNvXIya-30">
           <mxGeometry relative="1" as="geometry">
@@ -197,11 +209,63 @@
         <mxCell id="AWzn9kfPtikDPwNvXIya-33" value="排行榜对应数据写入redis&lt;br&gt;nats通知游戏服务推送" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-10" y="640" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="AWzn9kfPtikDPwNvXIya-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AWzn9kfPtikDPwNvXIya-38" target="AWzn9kfPtikDPwNvXIya-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="AWzn9kfPtikDPwNvXIya-38" value="监听订单相关&lt;br&gt;order.*" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="294" y="130" width="120" height="80" as="geometry" />
+          <mxGeometry x="414" y="140" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AWzn9kfPtikDPwNvXIya-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AWzn9kfPtikDPwNvXIya-39" target="AWzn9kfPtikDPwNvXIya-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="310" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="AWzn9kfPtikDPwNvXIya-39" value="监听派彩相关&lt;br&gt;payout.*" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="130" width="120" height="80" as="geometry" />
+          <mxGeometry x="660" y="140" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AWzn9kfPtikDPwNvXIya-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AWzn9kfPtikDPwNvXIya-42" target="AWzn9kfPtikDPwNvXIya-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AWzn9kfPtikDPwNvXIya-63" value="order.payout" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AWzn9kfPtikDPwNvXIya-45">
+          <mxGeometry x="0.5181" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AWzn9kfPtikDPwNvXIya-60" value="order.update" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.111;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AWzn9kfPtikDPwNvXIya-42" target="AWzn9kfPtikDPwNvXIya-59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="245" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AWzn9kfPtikDPwNvXIya-42" value="主题" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="456" y="230" width="36" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AWzn9kfPtikDPwNvXIya-47" value="获取当期投注订单加载到内存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AWzn9kfPtikDPwNvXIya-48" value="标记卡片的对应的开奖号码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AWzn9kfPtikDPwNvXIya-49" value="订单批量推入&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;order.update" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AWzn9kfPtikDPwNvXIya-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="AWzn9kfPtikDPwNvXIya-48" target="AWzn9kfPtikDPwNvXIya-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AWzn9kfPtikDPwNvXIya-59" value="更新订单状态为已结算&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;生成派彩请求推送到payout.pay&lt;br&gt;推送奖池修改信息到prizePool游戏服务处理&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;如果未中奖直接更新为已派彩" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="460" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AWzn9kfPtikDPwNvXIya-62" value="调研钱包服务派彩rpc&lt;br&gt;推送订单派彩信息到order.payout" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AWzn9kfPtikDPwNvXIya-64" value="修改订单状态为已派彩&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AWzn9kfPtikDPwNvXIya-66" value="当期清空内存数据&lt;br&gt;其他期删除es历史中奖信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="350" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
