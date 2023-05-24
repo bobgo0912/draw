@@ -1,9 +1,153 @@
-<mxfile host="app.diagrams.net" modified="2023-05-24T06:01:33.282Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.1.1" etag="ZwL6nLAzAdSiwFVzUkcI" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-24T06:47:30.991Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="aPDHwEsFzenSCmEwDo4g" version="21.1.1" type="github">
   <diagram name="第 1 页" id="E0SNLMHhTtpIy8m0_c5T">
-    <mxGraphModel>
+    <mxGraphModel dx="1168" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="g50fVw6pL1AldvY3V3ik-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="g50fVw6pL1AldvY3V3ik-1" target="g50fVw6pL1AldvY3V3ik-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="70" y="70" />
+              <mxPoint x="70" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g50fVw6pL1AldvY3V3ik-4" value="begin" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g50fVw6pL1AldvY3V3ik-3">
+          <mxGeometry x="0.2516" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g50fVw6pL1AldvY3V3ik-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="g50fVw6pL1AldvY3V3ik-1" target="g50fVw6pL1AldvY3V3ik-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="130" />
+              <mxPoint x="200" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g50fVw6pL1AldvY3V3ik-8" value="prize_on_going" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g50fVw6pL1AldvY3V3ik-6">
+          <mxGeometry x="-0.2215" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g50fVw6pL1AldvY3V3ik-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g50fVw6pL1AldvY3V3ik-1" target="g50fVw6pL1AldvY3V3ik-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g50fVw6pL1AldvY3V3ik-24" value="f" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g50fVw6pL1AldvY3V3ik-23">
+          <mxGeometry x="0.3196" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g50fVw6pL1AldvY3V3ik-25" value="finish" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g50fVw6pL1AldvY3V3ik-23">
+          <mxGeometry x="0.3814" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g50fVw6pL1AldvY3V3ik-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="g50fVw6pL1AldvY3V3ik-1" target="g50fVw6pL1AldvY3V3ik-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g50fVw6pL1AldvY3V3ik-37" value="cancel" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g50fVw6pL1AldvY3V3ik-36">
+          <mxGeometry x="0.125" y="3" relative="1" as="geometry">
+            <mxPoint x="-3" y="70" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g50fVw6pL1AldvY3V3ik-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="g50fVw6pL1AldvY3V3ik-1" target="g50fVw6pL1AldvY3V3ik-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g50fVw6pL1AldvY3V3ik-40" value="cancel_ballt" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g50fVw6pL1AldvY3V3ik-39">
+          <mxGeometry x="0.2609" y="-1" relative="1" as="geometry">
+            <mxPoint x="20" y="69" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g50fVw6pL1AldvY3V3ik-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="g50fVw6pL1AldvY3V3ik-1" target="g50fVw6pL1AldvY3V3ik-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g50fVw6pL1AldvY3V3ik-43" value="confirm" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="g50fVw6pL1AldvY3V3ik-42">
+          <mxGeometry x="0.3831" y="-1" relative="1" as="geometry">
+            <mxPoint x="42" y="69" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g50fVw6pL1AldvY3V3ik-1" value="奖源事件&lt;br&gt;WS.game.event" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g50fVw6pL1AldvY3V3ik-5" value="初始化数据&lt;br&gt;期号&lt;br&gt;订单信息&lt;br&gt;图案赔率" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g50fVw6pL1AldvY3V3ik-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g50fVw6pL1AldvY3V3ik-7" target="g50fVw6pL1AldvY3V3ik-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g50fVw6pL1AldvY3V3ik-7" value="1.没有初始化数据就初始化&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g50fVw6pL1AldvY3V3ik-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g50fVw6pL1AldvY3V3ik-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g50fVw6pL1AldvY3V3ik-10" value="1.获取最新开奖号码&lt;br&gt;2.extra订单对应中奖号码和图案处理&lt;br&gt;3.b&amp;amp;j对应中奖号码标记&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g50fVw6pL1AldvY3V3ik-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g50fVw6pL1AldvY3V3ik-12" target="g50fVw6pL1AldvY3V3ik-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g50fVw6pL1AldvY3V3ik-12" value="1.24-44区间进行blackout判断&lt;br&gt;2.大奖记录构造&lt;br&gt;3.prizePotRecord构造" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g50fVw6pL1AldvY3V3ik-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g50fVw6pL1AldvY3V3ik-14" target="g50fVw6pL1AldvY3V3ik-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g50fVw6pL1AldvY3V3ik-14" value="1.44球jackpot排行榜数据 和extra订单 排行榜数据处理&lt;br&gt;2.历史中奖记录构造&lt;br&gt;3.奖池变动构造" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="510" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="g50fVw6pL1AldvY3V3ik-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g50fVw6pL1AldvY3V3ik-16" target="g50fVw6pL1AldvY3V3ik-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g50fVw6pL1AldvY3V3ik-16" value="1.49球bingo 排行榜数据构造&lt;br&gt;2.历史中奖记录构造&lt;br&gt;3.奖池变动构造" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g50fVw6pL1AldvY3V3ik-18" value="1.排行榜数据推送" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g50fVw6pL1AldvY3V3ik-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g50fVw6pL1AldvY3V3ik-22" target="g50fVw6pL1AldvY3V3ik-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g50fVw6pL1AldvY3V3ik-22" value="1.b&amp;amp;j 订单数据处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="284" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g50fVw6pL1AldvY3V3ik-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g50fVw6pL1AldvY3V3ik-27" target="g50fVw6pL1AldvY3V3ik-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g50fVw6pL1AldvY3V3ik-27" value="1.订单数据入库" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="284" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g50fVw6pL1AldvY3V3ik-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g50fVw6pL1AldvY3V3ik-29" target="g50fVw6pL1AldvY3V3ik-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g50fVw6pL1AldvY3V3ik-29" value="1.中奖通知推送" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="284" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g50fVw6pL1AldvY3V3ik-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g50fVw6pL1AldvY3V3ik-31" target="g50fVw6pL1AldvY3V3ik-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g50fVw6pL1AldvY3V3ik-31" value="1.奖池变动推送" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="284" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g50fVw6pL1AldvY3V3ik-33" value="1.历史中奖记录保存" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="284" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g50fVw6pL1AldvY3V3ik-35" value="1.当前期数清理内存&lt;br&gt;2.其他期数删除历史中奖记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g50fVw6pL1AldvY3V3ik-38" value="1.取消球&lt;br&gt;2.排行榜推送" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g50fVw6pL1AldvY3V3ik-41" value="1.44球时中奖通知推送" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
